@@ -20,6 +20,5 @@ public class Stacks {
         System.out.println(stack.empty()); //пустой или нет
 
 
-
     }
 }
