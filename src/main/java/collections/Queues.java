@@ -16,11 +16,11 @@ public class Queues {
 
         Queue<PersonForQueue> queue = new ArrayBlockingQueue<PersonForQueue>(10);
         queue.add(person3);
-        queue.add(person1); //добавляет электмент в очередь, но вызывает исключение
+        queue.add(person1); //добавляет элемент в очередь, но вызывает исключение
         queue.add(person2);
 
         queue.offer(person4);
-        queue.offer(person5); //добавляет электмент в очередь, но не вызывает исключение
+        queue.offer(person5); //добавляет элемент в очередь,, но не вызывает исключение
         queue.offer(person6);
 
         for (int i = 0; i < 3; i++){
